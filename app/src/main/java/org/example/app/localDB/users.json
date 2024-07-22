@@ -1,0 +1,83 @@
+[
+  {
+    "user_id": "ghijkl",
+    "name": "Anita Kumar",
+    "hashed_password": "67890",
+    "tickets_booked": [
+      {
+        "source": "Mumbai",
+        "destination": "Chennai",
+        "date_of_travel": "2023-11-15T06:45:00Z",
+        "train": {
+          "train_id": "mumch",
+          "train_no": 54321,
+          "seats": [
+            [0,0,1,0,0,0],
+            [0,0,0,0,1,0],
+            [0,0,0,0,0,0],
+            [0,1,0,0,0,0]
+          ],
+          "stations": {
+            "Mumbai": "06:00:00",
+            "Pune": "09:00:00",
+            "Chennai": "20:00:00"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "mnopqr",
+    "name": "Rahul Sharma",
+    "hashed_password": "abcd1234",
+    "tickets_booked": [
+      {
+        "source": "Hyderabad",
+        "destination": "Kolkata",
+        "date_of_travel": "2024-01-10T09:30:00Z",
+        "train": {
+          "train_id": "hybkol",
+          "train_no": 67890,
+          "seats": [
+            [0,1,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,1,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations": {
+            "Hyderabad": "07:00:00",
+            "Bhubaneswar": "16:00:00",
+            "Kolkata": "22:00:00"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "stuvwx",
+    "name": "Sneha Patel",
+    "hashed_password": "xyz7890",
+    "tickets_booked": [
+      {
+        "source": "Ahmedabad",
+        "destination": "Surat",
+        "date_of_travel": "2024-02-20T14:00:00Z",
+        "train": {
+          "train_id": "ahdsur",
+          "train_no": 11223,
+          "seats": [
+            [0,0,0,0,0,1],
+            [0,0,0,0,0,0],
+            [0,0,1,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations": {
+            "Ahmedabad": "13:00:00",
+            "Vadodara": "15:00:00",
+            "Surat": "17:00:00"
+          }
+        }
+      }
+    ]
+  }
+]
